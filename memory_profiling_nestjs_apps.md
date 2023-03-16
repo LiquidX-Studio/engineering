@@ -1,4 +1,4 @@
-# Memory Profiling for NestJS App with V8
+# How to profile the memory usage of a Nest js app
 
 > Author: [Amjad Hossain](https://www.linkedin.com/in/md-amjad-hossain-rahat/)
 
@@ -14,7 +14,7 @@ Before getting started, make sure you have the following installed:
 
 ## Installing the Dependencies
 
-First, we need to install **v8-profiler** and **v8** modules which allows us to generate memory profiles for our application. You can use any one of the module. For demonstration we're showing both of this popular module how to use. To install, run the following commands:
+First, we need to install `v8-profiler` and `v8` modules which allows us to generate memory profiles for our application. You can use either of these two modules. 
 
 ```bash
 npm install v8-profiler
@@ -26,9 +26,9 @@ yarn add v8-profiler
 yarn add v8
 ```
 
-## Enabling the Profiler
+## Enabling the Profiler in the app
 
-Next, we need to enable the profiler in our NestJS application. To do so, we will add a new endpoint to our application that will trigger the profiler. Add the following code to your controller:
+We need to add a new endpoint to our application that will trigger the profiler. Add the following code to your controller:
 
 ```typescript
 import { Controller, Get } from '@nestjs/common';
@@ -58,11 +58,12 @@ export class AppController {
   }
 }
 ```
-In this code, we are creating a new endpoint at `/profile/memory` that will trigger the profiler. When this endpoint is accessed, the profiler will start profiling the memory usage of our application for 5 seconds. After the profiling is complete, the profiler will export the results as a JSON object.
+
+In this code, we are creating a new endpoint at `/profile/memory` that will trigger the profiler. When this endpoint is accessed, the profiler will start profiling the memory usage of our application for `5 seconds`. After the profiling is complete, the profiler will export the results as a JSON object.
 
 ## Generating the Memory Profile
-
 To generate the memory profile, we will need to access the newly created endpoint in our NestJS application. Here's an example of how to do this using the `axios` module:
+
 ```typescript
 import axios from 'axios';
 
@@ -86,7 +87,3 @@ Once we have generated the memory profile, we can analyze it using the Chrome De
 6. Click on the **Comparison** tab to compare the memory usage of different snapshots.
 
 In the DevTools, you can also use other tools and tabs to analyze the memory usage in more detail.
-
-## Conclusion
-
-In this guide, we have learned how to perform memory profiling for our NestJS application with V8. By analyzing the memory profile, we can identify potential memory leaks and other memory-related issues, and optimize our application for better performance.
