@@ -49,7 +49,7 @@ Random number = ((1 * seed_1) + seed_2) MOD seed_3
  - The Smart Contract checks whether the winner is claiming its first treasure during the current week or not
  - If it's the first treasure, the Smart Contract will check whether the winner wins a Sponsored Trip, if yes, it will transfer Sponsored Trip otherwise or it will give a random treasure.
  - If it's not the first treasure (i.e. second treasure, third treasure, etc.), it will try to select a treasure different than the first one randomly (`getRandomNumber` method in the smart contract) provided that there are other types of rewards available in its vault.
-10. The Smart Contract will then transfer the treasure from the vault wallet address to the winner wallet address.
+11. The Smart Contract then finally transfers the treasure from the vault wallet address to the winner wallet address.
 
 ## Links to deployed smart contracts in the Mainnet
 - [Trainer Adventure Smart Contract__(NEW)__](https://etherscan.io/address/0x13182b9b97d27c5b09C5809b93c31F745d54aC82)
