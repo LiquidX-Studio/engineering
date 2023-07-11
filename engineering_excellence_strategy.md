@@ -1,3 +1,5 @@
+![LiquidXLogo.png](./img/LiquidXLogo.png)
+
 # Engineering Excellence Strategy
 Contemporary [research](https://www.thoughtworks.com/radar/techniques/four-key-metrics) shows that high-performing software development teams are essential for creating high-performing organizations.
 

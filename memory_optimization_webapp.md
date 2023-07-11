@@ -1,3 +1,5 @@
+![LiquidXLogo.png](./img/LiquidXLogo.png)
+
 # Optimizing NestJS App Memory Usage in Kubernetes
 
 > Author: [Amjad Hossain](https://www.linkedin.com/in/md-amjad-hossain-rahat/)

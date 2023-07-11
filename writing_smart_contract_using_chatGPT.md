@@ -1,3 +1,5 @@
+![LiquidXLogo.png](./img/LiquidXLogo.png)
+
 # Using ChatGPT for Writing Smart Contract
 
 > Author: [Atiq Ahmed](https://www.linkedin.com/in/atiq-ahammed/)

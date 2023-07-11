@@ -1,3 +1,5 @@
+![LiquidXLogo.png](./img/LiquidXLogo.png)
+
 # How we use Perforce, TeamCity, UnrealGameSync with Unreal Engine in LiquidX
 
 > Author: [Sean-Li Murman](https://www.linkedin.com/in/seanlimurmann/)

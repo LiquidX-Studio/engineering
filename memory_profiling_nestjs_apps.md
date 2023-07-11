@@ -1,3 +1,5 @@
+![LiquidXLogo.png](./img/LiquidXLogo.png)
+
 # How to profile the memory usage of a Nest js app
 
 > Author: [Amjad Hossain](https://www.linkedin.com/in/md-amjad-hossain-rahat/)

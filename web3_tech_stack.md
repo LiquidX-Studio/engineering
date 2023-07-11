@@ -1,3 +1,5 @@
+![LiquidXLogo.png](./img/LiquidXLogo.png)
+
 # Building from scratch
 ![img](./img/buildingWeb3Foundations.png)
 

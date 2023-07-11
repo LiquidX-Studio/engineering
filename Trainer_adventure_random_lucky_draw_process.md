@@ -1,3 +1,5 @@
+![LiquidXLogo.png](./img/LiquidXLogo.png)
+
 # Winner Selection Process in the Pixelmon Trainer Adventure
 
 ## Overview
