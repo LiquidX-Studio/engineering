@@ -1,6 +1,6 @@
 ![LiquidXLogo.png](./img/LiquidXLogo.png)
 
-# Winner Selection Process in the Pixelmon Trainer Adventure
+# Lucky Draw Process in the Pixelmon Trainer Adventure
 
 ## Overview
 Our Pixelmon trainer adventure allows the holders of our Trainers and Pixelmon tokens to soft stake those tokens and win prizes (sponsor trips, evolution serum, trainer gear, etc.) by participating in weekly lucky draws.
@@ -57,3 +57,15 @@ Random number = ((1 * seed_1) + seed_2) MOD seed_3
 - [Trainer Adventure Smart Contract__(NEW)__](https://etherscan.io/address/0x13182b9b97d27c5b09C5809b93c31F745d54aC82)
 - [Trainer Gear Smart Contract](https://etherscan.io/address/0x05A6528663278f51f9cc22D0bb3ca0E1e0a3Ae2f)
 - [Sponsored Trips Smart Contract ](https://goerli.etherscan.io/address/0x90c3D47914DF3C4df4D281DCaA5AB2BB4996c162)
+
+# Lucky draw winner verification using ticket list
+It is possible to download the tickets distribution for each week's draw and then run a script to **re-create** the list of winners for the previous week.
+
+## Download verification script and instructions
+- [README](./scripts/trainer-adventure-verification/README.md)
+- [Package.json](./scripts/trainer-adventure-verification/package.json)
+- [trainer-adventure-verification.js](./scripts/trainer-adventure-verification/trainer-adventure-verification.js)
+
+## Data used in the weekly draw process
+- [Sample download link for week 9: https://pixelmon-trainer-adventure.s3.ap-southeast-1.amazonaws.com/participated-tickets/tickets-week-9.csv](https://pixelmon-trainer-adventure.s3.ap-southeast-1.amazonaws.com/participated-tickets/tickets-week-9.csv)
+- Note: Week number started from `2` and file name format is `tickets-week-{Week Number}.csv`
