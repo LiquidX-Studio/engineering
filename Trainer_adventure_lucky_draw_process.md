@@ -57,8 +57,7 @@ Once all winners have been chosen for the week, the backend process stores the w
 ## 6. Claiming treasure
 - According to the claiming start and end timestamps, the winner of a week's draw calls the `claimTreasure` method in our Trainer adventure smart contract using our Pixelmon [staking site](https://staking.pixelmon.ai/) to claim their treasure.
 
- - The Smart Contract checks whether the winner is claiming its first treasure during the current week or not
- - If it's the first treasure, the Smart Contract will check whether the winner wins a Sponsored Trip, if yes, it will transfer Sponsored Trip otherwise or it will give a random treasure.
+ - If it's the first treasure being claimed, the user has not won any sponsor trip before, and there are sponsor trips rewards are available, the Smart Contract will check whether the user is the winner of a Sponsored Trip. Otherwise, it will choose a random treasure.
  - If it's not the first treasure (i.e. second treasure, third treasure, etc.), it will try to select a treasure different than the first one randomly (`getRandomNumber` method in the smart contract) provided that there are other types of rewards available in its vault.
 
 ## 7. Treasure distribution to the claiming winners
