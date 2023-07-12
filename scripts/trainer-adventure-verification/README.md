@@ -1,7 +1,7 @@
 # Steps to run the script
 1. Ensure that `Node.js` is installed on your system. You can download it from the official [Node.js website](https://nodejs.org/en/download) and follow the installation instructions specific to your operating system.
 
-2. Verify that Yarn is installed. Yarn is a package manager for Node.js applications. You can install Yarn by following the installation instructions provided on the official [Yarn website](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable).
+2. Verify that Yarn is installed. Yarn is a package manager for Node.js applications. You can install Yarn by following the installation instructions provided on the official [Yarn website](https://classic.yarnpkg.com/lang/en/).
 
 3. Open the file `trainer-adventure-verification.js` and locate line 11 [const randomNumbers... line] . Update the code on that line based on the comments provided in the file in `lines 4-10`. Make the necessary modifications to ensure the code aligns with the given instructions.
 
