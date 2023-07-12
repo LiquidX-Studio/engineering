@@ -33,7 +33,7 @@ The lucky draw process in the Pixelmon trainer adventure involves generating a c
   - The wallet addresses associated with that tickets become the winner of the rewards.
 
 ## 3. Random number generation using random seeds
-- Every Tuesday between `9am-12pm SGT` our backend service calls our [smart contract's](https://etherscan.io/address/0x13182b9b97d27c5b09c5809b93c31f745d54ac82#code) `generateChainLinkRandomNumbers` method
+- Every Tuesday between `9am-12pm SGT`, our backend service calls our [smart contract's](https://etherscan.io/address/0x13182b9b97d27c5b09c5809b93c31f745d54ac82#code) `generateChainLinkRandomNumbers` method
 
 - Our smart contract receives `3` randomly generated seed numbers from  [Chainlink](https://vrf.chain.link/mainnet).
 
