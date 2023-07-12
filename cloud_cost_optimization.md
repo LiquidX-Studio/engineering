@@ -1,4 +1,6 @@
-![LiquidXLogo.png](./img/LiquidXLogo.png)
+![LiquidXLogo.png](./img/LiquidXLogoDarkBg.png)
+
+---
 
 # A continual process
 Designing and provisioning cloud architecture now a days have become quite easy often can be done by click of mouse.  However, the flipside of that convenience is the rising cost that could often become prohibitive for a startup or medium-size organization.  In this article, we discuss a few processes and steps we have found useful in keeping the infrastructure cost down.  Keep in mind that the cost-saving measures are seldom a one-off engagement, the team and the organization needs to commit to the cost-saving measures continually to have a significant dent in the overall infrastructure bill.

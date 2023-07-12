@@ -1,4 +1,6 @@
-![LiquidXLogo.png](./img/LiquidXLogo.png)
+![LiquidXLogo.png](./img/LiquidXLogoDarkBg.png)
+
+---
 
 # Coding Guide
 Our goal is to write clean code that is robust, extensible, and easy to read and understand.

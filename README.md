@@ -1,4 +1,6 @@
-![LiquidXLogo.png](./img/LiquidXLogo.png)
+![LiquidXLogo.png](./img/LiquidXLogoDarkBg.png)
+
+---
 
 # LiquidX Studio Engineering Blog
 Here is a list of articles in our engineering blog.

@@ -1,4 +1,6 @@
-![LiquidXLogo.png](./img/LiquidXLogo.png)
+![LiquidXLogo.png](./img/LiquidXLogoDarkBg.png)
+
+---
 
 # Incubator Project - GenerativeAI-based Token Minting
 

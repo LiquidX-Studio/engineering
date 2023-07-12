@@ -1,4 +1,6 @@
-![LiquidXLogo.png](./img/LiquidXLogo.png)
+![LiquidXLogo.png](./img/LiquidXLogoDarkBg.png)
+
+---
 
 # Optimizing NestJS App Memory Usage in Kubernetes
 

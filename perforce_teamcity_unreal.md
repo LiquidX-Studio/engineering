@@ -1,4 +1,6 @@
-![LiquidXLogo.png](./img/LiquidXLogo.png)
+![LiquidXLogo.png](./img/LiquidXLogoDarkBg.png)
+
+---
 
 # How we use Perforce, TeamCity, UnrealGameSync with Unreal Engine in LiquidX
 

@@ -1,4 +1,7 @@
-![LiquidXLogo.png](./img/LiquidXLogo.png)
+![LiquidXLogo.png](./img/LiquidXLogoDarkBg.png)
+
+---
+
 # How we code
 Designing and developing a software (SAAS or client software) is a complex process that are often impacted by a variety of constraints.  Short time to market, shortage of engineering resources, complexity of the product requirements are often the common factors impacting any software development project. We use the described process to address the common challenges and deliver products that meets the quality bar required by our stakeholders.
 
