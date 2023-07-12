@@ -8,6 +8,7 @@ Here is a list of articles in our engineering blog.
 - [Web3 tech stack](./web3_tech_stack.md)
 - [How build the memory profile of a NestJS webapp](./memory_profiling_nestjs_apps.md)
 - [Memory optimization strategies of NodeJs webapps](./memory_optimization_webapp.md)
+- [Solidity best practices](./Solidity_best_practices.md)
 - [Writing smart contracts using generative AI - ChatGPT](./writing_smart_contract_using_chatGPT.md)
 - [Imagine token - using generative AI to create NFTs](./imagine_token.md)
 - [Trainer adventure lucky draw process](./Trainer_adventure_lucky_draw_process.md)
