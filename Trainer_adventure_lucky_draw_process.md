@@ -51,7 +51,7 @@ The lucky draw process in the Pixelmon trainer adventure involves generating a c
 
 ![Winner_selection](./img/Winner_selection.png)
 
-## 5. Winner selection stored
+## 5. Winner selection stored in the smart contract
 Once all winners have been chosen for the week, the backend process stores the winning wallet addresses and their respective count of prizes in the Trainer adventure smart contract by calling the `updateWeeklyWinners` method.
 
 ## 6. Claiming treasure
