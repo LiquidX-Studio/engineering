@@ -22,7 +22,7 @@ The lucky draw process in the Pixelmon trainer adventure involves generating a c
 ## 2. Draw initiation
 3. Every week on **Tuesday** at `12PM SGT`, the lucky draw process is initiated by our backend service.
 
-  - In the lucky draw, the backend process considers tickets that are distributed before ``8:30 AM SGT``.  Furthermore, if a Trainer or Pixelmon is unstaked by the user before ``9:00AM SGT + draw initialization time(5-15 mins)``, their associated tickets are not considered for the draw.
+  - In the lucky draw, the backend process considers tickets that are distributed before ``8:30 AM SGT``.  Furthermore, if a Trainer or a Pixelmon gets unstaked (e.g., sold) by the user before ``9:00AM SGT + draw initialization time(5-15 mins)``, the associated tickets with those unstaked tokens are **not** considered for the draw.
 
   - No wallet address can win more than two rewards in a single week.
 
