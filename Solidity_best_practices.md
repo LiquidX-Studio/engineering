@@ -1,8 +1,8 @@
 ![LiquidXLogo.png](./img/LiquidXLogo.png)
 
-### Author: Shafiul Nobe
+> Author: Shafiul Nobe
 
-### Created on: 11 July, 2023
+> Created on: 11 July, 2023
 
 # 7 Solidity Best Practices: Enhancing Efficiency and Security in Ethereum Smart Contracts
 
