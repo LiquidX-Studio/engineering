@@ -37,9 +37,7 @@ The lucky draw process in the Pixelmon trainer adventure involves generating a c
 
 - Based on those `3` randomly generated seed numbers (`uint256`), the backend generates `163` pseudo-randomized numbers using the [Linear congruential generator](https://en.wikipedia.org/wiki/Linear_congruential_generator), [* more ref](https://www.freecodecamp.org/news/random-number-generator#the-linear-congruential-generator)
 
-```
-Random number = ((1 * seed_1) + seed_2) MOD seed_3
-```
+![Random_number_generation_with_chainlink_seeds](./img/Random_number_generation_with_chainlink_seeds.png)
 
 ## 4. Winner selection
 - The backend process then sorts all tickets based on the `ticket number` and creates an **array of tickets** that are used for selecting winners for that week.
@@ -48,6 +46,8 @@ Random number = ((1 * seed_1) + seed_2) MOD seed_3
   - Using the `3` random seeds in the Linear congruential generator formula, the backend process chooses the winning index within the array of tickets.
   - For each round, the winning ticket is eliminated from the array so that it is not considered in the future rounds of draw.
   - If a wallet address has won 2 rewards, the backend process eliminates all of its associated tickets from the future draws (to ensure a wallet address does *not* win more than 2 rewards).
+
+![Winner_selection](./img/Winner_selection.png)
 
 ## 5. Winner selection stored
 Once all winners have been chosen for the week, the backend process stores the winning wallet addresses and their respective count of prizes in the Trainer adventure smart contract by calling the `updateWeeklyWinners` method.
