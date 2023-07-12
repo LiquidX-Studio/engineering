@@ -1,4 +1,4 @@
-![LiquidXLogo.png](../img/LiquidXLogo.png)
+![LiquidXLogo.png](./img/LiquidXLogo.png)
 
 ### Author: Shafiul Nobe
 
