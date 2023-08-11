@@ -12,6 +12,7 @@ Here is a list of articles in our engineering blog.
 - [Memory optimization strategies of NodeJs webapps](./memory_optimization_webapp.md)
 - [Solidity best practices](./Solidity_best_practices.md)
 - [Writing smart contracts using generative AI - ChatGPT](./writing_smart_contract_using_chatGPT.md)
+- [How to rescue tokens from a compromised wallet](./rescue_nft_from_hacked_wallet.md)
 - [Imagine token - using generative AI to create NFTs](./imagine_token.md)
 - [Trainer adventure lucky draw process](./Trainer_adventure_lucky_draw_process.md)
 - [Using Perforce, TeamCity, and Unreal Engine](./perforce_teamcity_unreal.md)
