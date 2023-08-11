@@ -1,6 +1,6 @@
-# Blockchain Network Security Topics
+![LiquidXLogo.png](./img/LiquidXLogoDarkBg.png)
 
-![blockchain_network_security.jpeg](./img/blockchain_network_security.jpeg)
+---
 
 > Author: [Atiq Ahmed](https://www.linkedin.com/in/atiq-ahammed/) and [Shafiul Nobe](https://www.linkedin.com/in/shafiul-nobe/)
 
